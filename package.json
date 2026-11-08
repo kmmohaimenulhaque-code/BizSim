@@ -1,0 +1,25 @@
+{
+  "name": "bizsim-universal",
+  "version": "2.4.0",
+  "description": "BIZSIM Cross-Platform Strategic Business Simulation Engine (iOS, Android, macOS, Windows, Linux, Web)",
+  "main": "electron-main.js",
+  "scripts": {
+    "start": "npx serve web",
+    "electron": "electron .",
+    "cap:init": "npx cap sync",
+    "ios": "npx cap open ios",
+    "android": "npx cap open android",
+    "tauri:dev": "cargo tauri dev",
+    "tauri:build": "cargo tauri build"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/ios": "^6.0.0"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3"
+  }
+}

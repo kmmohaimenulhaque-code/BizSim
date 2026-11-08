@@ -1,0 +1,34 @@
+{
+  "build": {
+    "beforeBuildCommand": "",
+    "beforeDevCommand": "",
+    "devPath": "../web",
+    "distDir": "../web"
+  },
+  "package": {
+    "productName": "BIZSIM",
+    "version": "2.4.0"
+  },
+  "tauri": {
+    "bundle": {
+      "active": true,
+      "identifier": "org.bizsim.desktop",
+      "targets": [
+        "deb",
+        "appimage",
+        "msi",
+        "app",
+        "dmg"
+      ]
+    },
+    "windows": [
+      {
+        "title": "BIZSIM — Strategic Decision Engine",
+        "width": 1440,
+        "height": 900,
+        "resizable": true,
+        "fullscreen": false
+      }
+    ]
+  }
+}

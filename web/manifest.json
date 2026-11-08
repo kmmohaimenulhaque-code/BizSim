@@ -1,0 +1,9 @@
+{
+  "name": "BIZSIM — Strategic Business Intelligence & Case Simulation",
+  "short_name": "BIZSIM",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#080B10",
+  "theme_color": "#080B10",
+  "description": "Zero-login corporate strategy simulation and live company intelligence engine."
+}
